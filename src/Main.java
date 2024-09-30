@@ -4,8 +4,7 @@ public class Main {
 //        basePizza.addExtraToppings();
 //        basePizza.getBill();
 
-        DeluxPizza dp = new DeluxPizza(true);
-        dp.addExtraToppings();
-        dp.getBill();
+        Pizza myPizza = new Pizza();
+        myPizza.showMenu();
     }
 }
