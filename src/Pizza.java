@@ -18,6 +18,8 @@ public class Pizza {
 
 
     public void showMenu(){
+        System.out.println();
+        System.out.println();
         System.out.println("########## Welcome to Pizza Kingdom ##########");
         System.out.println("Here's our menu---");
         System.out.println("Veg Pizza      -- ₹300");
@@ -89,6 +91,9 @@ public class Pizza {
         }
         else if(j == 2){
             addExtraToppings();
+            showTakeawayOption();
+        }
+        else{
             showTakeawayOption();
         }
     }
